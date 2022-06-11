@@ -40,7 +40,7 @@ while game_is_running:
         
         # Determine winner, loser, or draw
         if player_choice == computer_choice:
-            print(f"Your selections are similar {player_choice}. IT'S A TIE!")
+            print(f"You both selected {player_choice}. IT'S A TIE!")
             continue
         elif player_choice == "Rock":
             if computer_choice == "Scissors":
